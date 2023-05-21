@@ -1,0 +1,233 @@
+body {max-width: auto ;margin: auto;}
+
+@media (max-width: 960px) {
+.hero {width: 700px}
+.body {width: 700px}
+.footer {width: 700px}
+}
+
+@media (max-width: 720px) {
+.hero {width: 500px}
+.body {width: 500px}
+.footer {width: 500px}
+}
+
+@media (max-width: 540px) {
+.container {flex-direction: column;}
+.hero {width: 300px}
+.body {width: 300px}
+.footer {width: 300px}
+}
+
+.body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#background-1 {
+	background-image: url(images/herobackground.jpg);
+}
+
+#background-2 {
+	background: #130033;
+}
+
+#hero {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 150px;
+
+	}
+
+.container {
+	display: flex;
+	}
+
+.colonne {
+	flex: 1;
+	box-sizing: border-box;
+	}
+
+h1 {
+	font-family: 'Unbounded', cursive;;
+	font-size: 60px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	margin: 0 auto;
+	}
+
+#timothee {
+	height: 500px;
+	}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	letter-spacing: 1px;
+	color: #EC5500
+	}
+
+h4{
+	font-family: 'Unbounded', cursive;;
+	font-size: 28px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #130033;
+	}
+
+h5{
+	font-family: 'Unbounded', cursive;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: auto;
+	margin-bottom: 15px;
+	color: #130033;
+	}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color: #130033;
+	padding-top: 36px;
+	padding-bottom: 36px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+	border: 2px solid #130033;
+	}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	}
+
+
+#profil{
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	}
+
+.btn-violet{
+	font-family: 'Unbounded', cursive;
+	font-size: 16px;
+	color: #130033;
+	background-color: #AE8FE3;
+	padding: 15px 25px;
+	border-radius: 6px;
+	} 
+
+.btn-violet:hover{
+	color: #FFFFFF;
+	background-color: #130033;
+	}
+
+.cartes-grises{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #F2F0F4
+	}
+
+#UX-research{
+	margin-right: 10px;
+	border-radius: 10px;
+	}
+
+#UI-design{
+	margin-left: 10px;
+	border-radius: 10px;
+	}
+
+#compétences{
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	}
+
+#projets {
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	overflow-x: auto; 
+	overflow-y: hidden;
+	white-space: nowrap;
+	}
+
+#projet-disney{
+	margin-right: 10px;
+	}
+
+#projet-bugizz{
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+
+#projet-cours{
+	margin-left: 10px;
+	}
+
+#img-disney {
+	height: 189.56px;
+	width: auto;
+	border-radius: 10px;
+	border: 1px solid #130033;
+	box-shadow: 0px 20px 30px rgba(242, 240, 244, 0.3);
+	}
+
+#img-bugizz {
+	height: 189.56px;
+	width: auto;
+	border-radius: 10px;
+	border: 1px solid #130033;
+	box-shadow: 0px 20px 30px rgba(242, 240, 244, 0.3);
+	}
+
+#img-notion {
+	height: 189.56px;
+	width: auto;
+	border-radius: 10px;
+	border: 1px solid #130033;
+	box-shadow: 0px 20px 30px rgba(242, 240, 244, 0.3);
+	}
+
+#contact {
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	}
+
+#footer {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+#footer-content{
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+	}
